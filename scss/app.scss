@@ -5,7 +5,7 @@ body {
 }
 section {
   position: relative;
-  max-width: 1336px;
+  max-width: 1920px;
   margin: auto;
   img {
     max-width: 100%;
@@ -20,10 +20,9 @@ section {
   .btn {
     fill: $primary;
     opacity: 0;
-    // display: none;
-    // fill: transparent;
-    box-shadow: inset 0 0 0 50px rgb(235,43,129);
-
+  }
+  .num {
+    opacity: 0;
   }
 }
 
