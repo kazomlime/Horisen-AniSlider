@@ -21,14 +21,12 @@ tlGeneral.to(".btn.no9", .2, {
     ease: Bounce.easeOut, 
     transformOrigin: "50% 50%" 
 }, "+=1" )
-.to(".btn.n9", 1, { opacity: 0 }, "+=1");
+.to(".btn.no9", 1, { opacity: 0 }, "+=1");
 
-// // 4th Btn
-// tlGeneral.to(".btn.no9", .2, { 
-//     opacity: .5, 
-//     // scaleX: 1.2, 
-//     // scaleY: 1.2, 
-//     ease: Bounce.easeOut, 
-//     transformOrigin: "50% 50%",
-// }, "+=1" )
-// .to(".btn.no9", .2, { opacity: 0 }, "+=1");
+// 4th Btn
+tlGeneral.to(".btn.no9", .2, { 
+    opacity: .5, 
+    ease: Bounce.easeOut, 
+    transformOrigin: "50% 50%",
+}, "+=1" )
+.to(".btn.no9", .2, { opacity: 0 }, "+=1");
