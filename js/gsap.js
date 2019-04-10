@@ -35,4 +35,3 @@ tlGeneral.to(".btn.no1", .2, {
 })
 .to(".num.no9-1", .2, { opacity:1 } /* "+=.2" */)
 .to(".btn.no9", .2, { opacity: 0, scaleY: 0, scaleX: 0 });
-
