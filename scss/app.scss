@@ -1,4 +1,4 @@
-$primary: #00d9ff;
+$grey: /* #00d9ff */ #CCC;
 
 body {
   margin: 0;
@@ -18,10 +18,13 @@ section {
     max-height: 100%;
   }
   .btn {
-    fill: $primary;
+    fill: $grey;
     opacity: 0;
   }
   .num {
+    opacity: 0;
+  }
+  .num2 {
     opacity: 0;
   }
 }

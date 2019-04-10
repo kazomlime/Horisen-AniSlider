@@ -34,4 +34,18 @@ tlGeneral.to(".btn.no1", .2, {
     transformOrigin: "50% 50%",
 })
 .to(".num.no9-1", .2, { opacity:1 } /* "+=.2" */)
-.to(".btn.no9", .2, { opacity: 0, scaleY: 0, scaleX: 0 });
+.to(".btn.no9", .2, { opacity: 0, scaleY: 0, scaleX: 0 })
+
+// last set of numbers
+.to(".num2.no1", .1, { opacity:1 })
+.to(".num2.no2", .1, { opacity:1 })
+.to(".num2.no3", .1, { opacity:1 })
+.to(".num2.no4", .1, { opacity:1 })
+.to(".num2.no5", .1, { opacity:1 })
+.to(".num2.no6", .1, { opacity:1 })
+.to(".num2.no7", .1, { opacity:1 })
+.to(".num2.no8", .1, { opacity:1 })
+.to(".num2.no9", .1, { opacity:1 })
+.to(".num2.no10", .1, { opacity:1 })
+.to(".num2.no11", .1, { opacity:1 })
+.to(".num2.no12", .1, { opacity:1 });
